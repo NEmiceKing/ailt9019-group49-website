@@ -1,6 +1,6 @@
 # AILT9019 Group 49 — Public project website
 
-This repository contains only the static project showcase. The application source remains in the private [application repository](https://github.com/Ryan06101/AILT9019-Group49---Lesson-plan-scaffolder).
+This repository contains only the static project showcase. (https://github.com/Ryan06101/AILT9019-Group49---Lesson-plan-scaffolder).
 
 ## Publish
 
