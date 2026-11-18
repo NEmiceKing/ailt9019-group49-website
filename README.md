@@ -1,0 +1,11 @@
+# AILT9019 Group 49 — Public project website
+
+This repository contains only the static project showcase. The application source remains in the private [application repository](https://github.com/Ryan06101/AILT9019-Group49---Lesson-plan-scaffolder).
+
+## Publish
+
+GitHub Pages serves `main` from the repository root. No backend, API key, build step, or paid subscription is required. Edit `index.html` and `style.css`, then push to `main` to update the page.
+
+## Outstanding content
+
+Add the actual presentation and demo video links and reviewed application screenshots when available. Historical evaluation examples are labelled with their tested revisions; do not describe them as tests of newer revisions without new evidence.
