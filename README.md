@@ -1,5 +1,7 @@
 # AILT9019 Group 49 — Public project website
 
+**Live website: [Lesson-plan scaffolder](https://nemiceking.github.io/ailt9019-group49-website/)**
+
 This repository contains only the static project showcase. 
 The project repo is at(https://github.com/Ryan06101/AILT9019-Group49---Lesson-plan-scaffolder).
 
