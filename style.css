@@ -19,3 +19,34 @@
 .screenshots figcaption { margin-top: 12px; font-size: 14px; color: var(--muted); }
 .screenshot-output { grid-column: 1 / -1; }
 @media (max-width: 760px) { .screenshots { grid-template-columns: 1fr; } }
+
+/* Larger reading text and flexible setup instructions. */
+body { font-size: 18px; }
+header, main, footer { max-width: 1320px; }
+h3 { font-size: 24px; }
+article p, .section-intro, .run p, .closing p, .built > div > p,
+.pipeline span, .plan ul, .screenshots figcaption { font-size: 18px; }
+.lead { font-size: 21px; }
+nav, .brand span, .button, .text-link { font-size: 16px; }
+.note, .metric span, .time span, .plan > p { font-size: 15px; }
+.eyebrow, .number, .tag, .code-label { font-size: 13px; }
+.hero > *, .run > * { min-width: 0; }
+.run { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+.run > div:first-child { max-width: 920px; }
+pre {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  padding: clamp(20px, 3vw, 36px);
+  font-size: clamp(15px, 1.35vw, 18px);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+pre code { white-space: inherit; }
+.demo-button { font-size: 22px; font-weight: 700; padding: 16px 30px; }
+.closing > div:last-child { display: flex; align-items: center; justify-content: flex-end; }
+@media (max-width: 760px) {
+  .brand { flex-wrap: wrap; gap: 8px 16px; }
+  nav { flex-wrap: wrap; gap: 12px 20px; }
+  .closing > div:last-child { justify-content: flex-start; }
+}
