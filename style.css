@@ -44,7 +44,7 @@ pre {
 }
 pre code { white-space: inherit; }
 .demo-button { font-size: 22px; font-weight: 700; padding: 16px 30px; }
-.closing > div:last-child { display: flex; align-items: center; justify-content: flex-end; }
+.closing > div:last-child { display: flex; align-items: center; justify-content: center; }
 @media (max-width: 760px) {
   .brand { flex-wrap: wrap; gap: 8px 16px; }
   nav { flex-wrap: wrap; gap: 12px 20px; }
