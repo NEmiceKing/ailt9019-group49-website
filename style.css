@@ -60,3 +60,6 @@ pre code { white-space: inherit; }
 .closing .demo-button { width: 100%; min-width: 0; justify-content: center; text-align: center; }
 
 .closing .repository-access { margin: 0; font-size: 15px; text-align: center; }
+
+.hero-repository { max-width: 320px; }
+.hero-repository .note { margin: 8px 0 0; }
