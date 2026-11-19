@@ -46,7 +46,7 @@ pre code { white-space: inherit; }
 .demo-button { font-size: 22px; font-weight: 700; padding: 16px 30px; }
 .closing > .closing-links {
   display: grid;
-  grid-template-columns: minmax(0, 320px);
+  grid-template-columns: minmax(0, 420px);
   align-content: center;
   justify-content: center;
   gap: 24px;
@@ -57,9 +57,9 @@ pre code { white-space: inherit; }
 
 }
 
-.closing .demo-button { width: 100%; min-width: 0; justify-content: center; text-align: center; }
+.closing .demo-button { width: 100%; max-width: 320px; min-width: 0; justify-self: center; justify-content: center; text-align: center; }
 
-.closing .repository-access { margin: 0; font-size: 15px; text-align: center; }
+.closing .repository-access { margin: 0; font-size: clamp(11px, 1.05vw, 15px); text-align: center; white-space: nowrap; }
 
 .hero-repository { max-width: 320px; }
 .hero-repository .note { margin: 8px 0 0; }
