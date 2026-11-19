@@ -58,3 +58,5 @@ pre code { white-space: inherit; }
 }
 
 .closing .demo-button { width: 100%; min-width: 0; justify-content: center; text-align: center; }
+
+.closing .repository-access { margin: 0; font-size: 15px; text-align: center; }
